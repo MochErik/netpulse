@@ -23,7 +23,7 @@
 
 ### Option 1: Install via `pip`
 ```bash
-pip install netpulse-cli
+pip install git+https://github.com/MochErik/netpulse.git-cli
 ```
 
 ### Option 2: Run directly via Python (No installation needed)
