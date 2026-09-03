@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netpulse-cli"
+version = "1.0.0"
+description = "High-Performance Network & DNS Diagnostic Suite CLI"
+readme = "README.md"
+authors = [
+  { name = "Moch. Erik Irriansyah", email = "erik@narotama.ac.id" }
+]
+license = { text = "MIT" }
+keywords = ["network", "dns", "ping", "latency", "cli", "tui", "sysadmin", "networking", "diagnostics"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: System Administrators",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: System :: Networking :: Monitoring",
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+netpulse = "netpulse.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/erikirriansyah/netpulse"
+Repository = "https://github.com/erikirriansyah/netpulse.git"
+Issues = "https://github.com/erikirriansyah/netpulse/issues"
